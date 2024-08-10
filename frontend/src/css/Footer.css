@@ -1,0 +1,60 @@
+/* Footer.css */
+
+.footer {
+    background-color: #242424; /* Màu nền footer */
+    color: #fff; /* Màu chữ */
+    padding: 40px 0; /* Khoảng cách bên trong */
+  }
+  
+  .container {
+    width: 80%; /* Độ rộng của phần nội dung footer */
+    margin: 0 auto; /* Căn giữa phần nội dung */
+    display: flex; /* Sử dụng flexbox để sắp xếp các cột */
+    flex-wrap: wrap; /* Cho phép các cột xuống dòng khi cần thiết */
+    justify-content: space-between; /* Khoảng cách đều giữa các cột */
+  }
+  
+  .footer-section {
+    flex: 1; /* Chia đều độ rộng cho các cột */
+    min-width: 200px; /* Độ rộng tối thiểu của mỗi cột */
+    margin-bottom: 20px; /* Khoảng cách giữa các cột */
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 10px; /* Khoảng cách giữa tiêu đề và nội dung */
+  }
+  
+  .footer-section ul {
+    list-style: none; /* Loại bỏ dấu chấm đầu dòng */
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 5px; /* Khoảng cách giữa các mục trong danh sách */
+  }
+  
+  .footer-badges {
+    margin-bottom: 15px; /* Khoảng cách giữa các biểu tượng chứng nhận */
+  }
+  
+  .protected-by {
+    font-size: 12px; /* Kích thước chữ nhỏ hơn */
+    color: #999; /* Màu chữ nhạt hơn */
+  }
+  
+  .contact-info {
+    font-size: 14px; /* Kích thước chữ nhỏ hơn */
+  }
+  
+  .footer-bottom {
+    background-color: #1a1a1a; /* Màu nền phần dưới cùng */
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .social-icons {
+    margin-top: 10px; /* Khoảng cách giữa văn bản và biểu tượng */
+  }
+  
+  /* Thêm các kiểu dáng cụ thể cho biểu tượng mạng xã hội và các phần tử khác nếu cần */
+  
